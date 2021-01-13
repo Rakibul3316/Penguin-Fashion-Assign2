@@ -1,0 +1,60 @@
+@media (min-width: 320px) {
+  .penguin-area {
+    padding-top: 0px;
+  }
+
+  .penguin-content {
+    width: 100%;
+  }
+
+  .penguin-bg {
+    position: relative;
+    margin-top: 50px;
+  }
+
+  .woman-title h2,
+  .man-title h2 {
+    text-align: center;
+  }
+
+  .services-area {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .services-area .single-service {
+    width: 100%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .penguin-title h1 {
+    font-size: 60px;
+  }
+
+  .penguin-content {
+    width: 80%;
+  }
+
+  .penguin-photo {
+    left: 12px;
+    top: -10px;
+  }
+
+  .jacket-row .col-lg-4:first-child .single-jacket-img img {
+    width: 310px;
+  }
+
+  .services-area .single-service {
+    width: 100%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
