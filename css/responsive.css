@@ -155,3 +155,10 @@
     top: -14px;
   }
 }
+
+@media (min-width: 1200px) {
+  .penguin-photo {
+    left: 19px;
+    top: -16px;
+  }
+}
