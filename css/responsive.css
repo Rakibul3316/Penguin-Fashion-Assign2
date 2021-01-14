@@ -1,4 +1,9 @@
 @media (min-width: 320px) {
+  .penguin-photo {
+    position: absolute;
+    left: 10px;
+    top: -10px;
+  }
   .penguin-area {
     padding-top: 0px;
   }
@@ -15,6 +20,14 @@
   .woman-title h2,
   .man-title h2 {
     text-align: center;
+  }
+
+  .jacket-row .col-lg-4:nth-child(2) .single-man-jacket-img img {
+    width: 258px;
+  }
+
+  .jacket-row .col-lg-4:first-child .single-jacket-img img {
+    width: 260px;
   }
 
   .services-area {
@@ -49,6 +62,11 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  .penguin-photo {
+    position: absolute;
+    left: 18px;
+    top: -16px;
+  }
   .service-img img {
     width: 82%;
   }
@@ -130,5 +148,10 @@
   .footer-heading {
     text-align: left;
     font-size: 26px;
+  }
+
+  .penguin-photo {
+    left: 16px;
+    top: -14px;
   }
 }
