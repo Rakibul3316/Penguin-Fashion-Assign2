@@ -24,11 +24,47 @@
 
   .services-area .single-service {
     width: 100%;
+    text-align: center;
+  }
+
+  .service-img img {
+    width: 55%;
+  }
+
+  .services-img img {
+    margin-bottom: 40px;
+  }
+
+  .shoes img,
+  .backpack img {
+    width: 80%;
+    padding-bottom: 20px;
+  }
+
+  .footer-heading {
+    text-align: center;
+    font-size: 40px;
   }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  .service-img img {
+    width: 82%;
+  }
+  .service-img {
+    padding-left: 0px;
+  }
+
+  .services-area .single-service {
+    text-align: left;
+  }
+
+  .shoes img,
+  .backpack img {
+    width: 30%;
+    padding-bottom: 20px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -50,11 +86,49 @@
     width: 310px;
   }
 
-  .services-area .single-service {
+  .service-img img {
+    width: 95%;
+  }
+
+  .service-img {
+    padding-left: 0px;
+  }
+
+  .service-content {
+    padding-top: 40px;
+  }
+
+  .footer-img img {
+    width: 80%;
+  }
+
+  .footer-heading {
+    text-align: left;
+  }
+
+  .shoes img,
+  .backpack img {
     width: 100%;
+    padding-bottom: 20px;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .woman-title h2,
+  .man-title h2 {
+    text-align: left;
+  }
+  .service-content {
+    padding-top: 0px;
+  }
+
+  .footer-img img {
+    width: 100%;
+  }
+
+  .footer-heading {
+    text-align: left;
+    font-size: 26px;
+  }
 }

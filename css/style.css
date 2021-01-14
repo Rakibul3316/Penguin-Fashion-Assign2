@@ -131,11 +131,11 @@ Woman-Jacket-Area & Man-Jacket-Area
   transform: translateY(0);
   transition: 0.2s;
   margin-bottom: 30px;
-  box-shadow: 1px 5px 10px #999;
 }
 
 .single-jacket:hover {
-  /* transform: translateY(-10px); */
+  transform: translateY(-10px);
+  box-shadow: 1px 5px 10px #999;
 }
 
 .jacket-row .col-lg-4:first-child .single-jacket-img img {
@@ -220,4 +220,76 @@ Services-Area
 
 .services-img img {
   width: 100%;
+}
+
+/*================
+Footer-Area
+=================*/
+
+footer {
+  background-color: #fffbf0;
+  padding: 50px;
+}
+
+.footer-img img {
+  width: 100%;
+}
+
+.footer-widget {
+  padding-top: 30px;
+}
+
+.footer-link {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-link li {
+  position: relative;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+
+.footer-link li a::before {
+  content: "\f879";
+  font-weight: 900;
+  font-family: "Font Awesome 5 Pro";
+  position: absolute;
+  left: 0;
+  top: 0px;
+  color: #363958;
+}
+
+.footer-link li a {
+  text-decoration: none;
+  color: #3e3e3e;
+}
+
+.footer-link li:nth-child(1) a::before {
+  content: "\f3c5";
+}
+
+.footer-link li:nth-child(2) a::before {
+  content: "\f0e0";
+}
+
+.footer-link li:nth-child(3) a::before {
+  content: "\f09a";
+  font-family: "Font Awesome 5 Brands";
+}
+
+.footer-heading {
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+
+.shoes img,
+.backpack img {
+  width: 100%;
+}
+
+.shoes-content p,
+.backpack-content p {
+  font-size: 10px;
 }
